@@ -10,5 +10,10 @@ public class AquaticAnimal extends Animal{
     public static void main(String[] args) {
         AquaticAnimal whale = new AquaticAnimal();
         System.out.println(whale.name + " " + whale.move());
+        if(whale.isAlive() == true){
+            System.out.println(whale.name + " is a living breathing creature");
+        }else{
+            System.out.println("This animal is dead");
+        }
     }
 }

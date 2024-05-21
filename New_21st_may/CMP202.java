@@ -1,4 +1,4 @@
-package fg;
+package New_21st_may;
 
 public class CMP202 {
     int age;
@@ -16,7 +16,7 @@ public class CMP202 {
             System.out.println("Password is not strong enough");
         }
     }
-    public static void main(String[] args){
 
-    }
+
 }
+
